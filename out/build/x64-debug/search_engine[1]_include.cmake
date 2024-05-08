@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/search_engine[1]_tests.cmake")
+  include("C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/search_engine[1]_tests.cmake")
+else()
+  add_test(search_engine_NOT_BUILT search_engine_NOT_BUILT)
+endif()

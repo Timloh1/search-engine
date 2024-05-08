@@ -1,0 +1,23 @@
+# ninja log v5
+11860	11909	7368931839997979	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	284c02a6303e3100
+2	63	7368931721579158	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	e8e46708072c696a
+12018	12101	7368931841873100	C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	222f8039b9d3c3ce
+66	11698	7368931837810336	C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip	3d341ac8f21b4a02
+11703	11758	7368931838435389	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	46f7b79a1e9c3f0a
+2	63	7368931721579158	C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	e8e46708072c696a
+66	11698	7368931837810336	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	3d341ac8f21b4a02
+11703	11758	7368931838435389	C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	46f7b79a1e9c3f0a
+66	11698	7368931837810336	googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip	3d341ac8f21b4a02
+66	11698	7368931837810336	C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	3d341ac8f21b4a02
+11758	11810	7368931839060424	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	fc5ef55e12f07988
+11758	11810	7368931839060424	C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	fc5ef55e12f07988
+11810	11859	7368931839529198	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	2a35f1730fbf4b6f
+12018	12101	7368931841873100	CMakeFiles/googletest-populate-complete	222f8039b9d3c3ce
+11810	11859	7368931839529198	C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	2a35f1730fbf4b6f
+11860	11909	7368931839997979	C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	284c02a6303e3100
+11909	11963	7368931840466753	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	f90482589d2e74b8
+11909	11963	7368931840466753	C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	f90482589d2e74b8
+11963	12018	7368931841091771	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	36bbdfc8e8178a65
+11963	12018	7368931841091771	C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	36bbdfc8e8178a65
+12018	12101	7368931841873100	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	222f8039b9d3c3ce
+12018	12101	7368931841873100	C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	222f8039b9d3c3ce

@@ -1,0 +1,24 @@
+# ninja log v5
+2	638	7368960466165328	build.ninja	4a92d143fbcdbb60
+19	73	7325463492210538	C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-mkdir	14548cdf58ffb891
+19	73	7325463492210538	json-populate-prefix/src/json-populate-stamp/json-populate-mkdir	14548cdf58ffb891
+73	3753	7325463529035425	json-populate-prefix/src/json.tar.xz	9956b9f41822b0ed
+3807	3861	7325463530107464	json-populate-prefix/src/json-populate-stamp/json-populate-patch	146bc2a3eb8f3e46
+73	3753	7325463529035425	json-populate-prefix/src/json-populate-stamp/json-populate-download	9956b9f41822b0ed
+73	3753	7325463529035425	C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/_deps/json-subbuild/json-populate-prefix/src/json.tar.xz	9956b9f41822b0ed
+73	3753	7325463529035425	C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-download	9956b9f41822b0ed
+4073	4145	7325463532947755	CMakeFiles/json-populate-complete	fe74596adcf84ebf
+3753	3807	7325463529567523	json-populate-prefix/src/json-populate-stamp/json-populate-update	d4eea22747ebf533
+3916	3970	7325463531180098	json-populate-prefix/src/json-populate-stamp/json-populate-build	d26cdd5c84ab208b
+3753	3807	7325463529567523	C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-update	d4eea22747ebf533
+3807	3861	7325463530107464	C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-patch	146bc2a3eb8f3e46
+3861	3916	7325463530650881	json-populate-prefix/src/json-populate-stamp/json-populate-configure	31c5100b7f894b8c
+3861	3916	7325463530650881	C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-configure	31c5100b7f894b8c
+3916	3970	7325463531180098	C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-build	d26cdd5c84ab208b
+3970	4022	7325463531718132	json-populate-prefix/src/json-populate-stamp/json-populate-install	7cc0e39b9d5710c7
+4022	4073	7325463532206894	json-populate-prefix/src/json-populate-stamp/json-populate-test	e230c8d532258853
+3970	4022	7325463531718132	C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-install	7cc0e39b9d5710c7
+4022	4073	7325463532206894	C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-test	e230c8d532258853
+4073	4145	7325463532947755	json-populate-prefix/src/json-populate-stamp/json-populate-done	fe74596adcf84ebf
+4073	4145	7325463532947755	C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/_deps/json-subbuild/CMakeFiles/json-populate-complete	fe74596adcf84ebf
+4073	4145	7325463532947755	C:/Users/я/Desktop/cpp/VS/search_engine/out/build/x64-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-done	fe74596adcf84ebf
