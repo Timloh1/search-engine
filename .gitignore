@@ -57,3 +57,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# My
+.vs/
+out/
+CMakePresets.json/
