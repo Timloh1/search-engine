@@ -61,4 +61,4 @@ $RECYCLE.BIN/
 # My ignore
 .vs/
 out/
-CMakePresets.json/
+CMakePresets.json
