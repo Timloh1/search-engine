@@ -12,6 +12,64 @@
 3) SearchServer - служит для расчета релевантности запроса в каждом документе.
 
 ### Описание файлов config.json, requests.json и answer.json:
+**config.json (пример описания)**
+
+```
+"config": {
+    "name": "SearchEngine",
+    "version": "0.1",
+    "max_responses": 5
+  },
+  "files": [
+    "../resources/file001.txt",
+    "../resources/file002.txt",
+    "../resources/file003.txt",
+    "../resources/file004.txt",
+    …
+  ]
+}
+```
+Программа выдаст ошибку и остановит свое выполнение при отсутствии ключа "config"
+
+**requests.json (пример описания)**
+
+```
+{
+  "requests": [
+    "some words..",
+    "some words..",
+    "some words..",
+    "some words..",
+    …
+  ]
+}
+```
+
+**answer.json (пример описания)**
+
+```
+{
+  "answers": {
+    "request001": {
+      "result": "true",
+      "relevance": {
+        "docid": 0, “rank” : 0.989,
+        "docid": 1, “rank” : 0.897,
+        "docid": 2, “rank” : 0.750,
+        "docid": 3, “rank” : 0.670,
+        "docid": 4, “rank” : 0.561
+      }
+    },
+    "request002": {
+      "result": "true",
+      "docid": 0, “rank” : 0.769
+    },
+    "request003": {
+      "result": "false"
+    }
+  }
+}
+```
 
 ### Описание методов классов:
 **ConverterJSON**
@@ -45,10 +103,6 @@ requests.json. Возвращает отсортированный список 
 1. Клонирование репозитория 
 
 ```git clone https://github.com/Timloh1/search-engine.git```
-
-2. Добавление в проект
-
-```#include "search-engine\search_engine.cpp"```
 
 ## Поддержка
 Если у вас возникли сложности или вопросы по использованию проекта, напишите на электронную почту ilya4nikitin@yandex.ru.
