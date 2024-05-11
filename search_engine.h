@@ -64,6 +64,9 @@ public:
 class NoFileInConfig : public exception
 {};
 
+void createStandartConfig();
+void createStandartRequests();
+
 class ConverterJSON 
 {
 public:

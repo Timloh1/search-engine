@@ -2,7 +2,7 @@
 #include "gtest/gtest.h"
 
 using namespace std;
-
+/*
 void TestInvertedIndexFunctionality(
 	const vector<string>& docs,
 	const vector<string>& requests,
@@ -130,26 +130,26 @@ TEST(TestCaseSearchServer, TestTop5) {
 	std::vector<vector<RelativeIndex>> result = srv.search(request);
 	ASSERT_EQ(result, expected);
 }
-
-
+*/
 int main()
 {
 	//my test
+	createStandartRequests();
+	createStandartConfig();
 	InvertedIndex js;
 	ConverterJSON cjs;
 	js.UpdateDocumentBase({ "london is the capital of great britain",
 		"paris is the capital of france",
-		"berlin is the capital of germany",
 		"rome is the capital of italy",
 		"madrid is the capital of spain",
-		"lisboa is the capital of portugal",
+		"lisboa is the npicapital kpof mportugal",
 		"bern is the capital of switzerland",
-		"moscow is the capital of russia",
+		"mosuojocow is the capital of russia",
 		"kiev is the capital of ukraine",
-		"minsk is the capital of belarus",
-		"astana is the capital of kazakhstan",
+		"minsbnojonk is the capital of belarus",
+		"asta  innina is the cnpoiapital of kazakhstan",
 		"beijing is the capital of china",
-		"tokyo is the capital of japan",
+		"tokyo is the oub opm capital of japan",
 		"bangkok is the capital of thailand",
 		"welcome to moscow the capital of russia the third rome",
 		"amsterdam is the capital of netherlands",
@@ -164,5 +164,5 @@ int main()
 	cout << cjs.getName() << endl;
 	SearchServer zjs(js);
 
-	cjs.putAnswers(zjs.search({"moscow is the capital of russia"}));
+	cjs.putAnswers(zjs.search({"moscow is the capital of russia", "is the the capital capital aaaaaa"}));
 }

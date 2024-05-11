@@ -67,6 +67,34 @@ const char* VersionsNotMatch::what() const noexcept
 	return "the versions do not match";
 }
 //
+void createStandartConfig() {
+	ofstream file("config.json");
+	nlohmann::json dict = {
+		{
+			"config", {
+				{"name", "SearchEngine"},
+				{"version", "1.0.0"},
+				{"max_responses", 5}
+			}
+		},
+		{
+			"files", {}
+		}
+	};
+	file << dict.dump(4);
+	file.close();
+}
+void createStandartRequests() {
+	ofstream file("requests.json");
+	nlohmann::json dict = {
+		{
+			"requests", {}
+		}
+	};
+	file << dict.dump(4);
+	file.close();
+}
+//
 vector<string> ConverterJSON::GetTextDocuments() {
 	try {
 		ifstream file("config.json");
@@ -86,6 +114,8 @@ vector<string> ConverterJSON::GetTextDocuments() {
 		}
 
 		vector<string> output;
+
+		if (dict["files"] == nullptr) assert(0);
 
 		for (string new_path : dict["files"]) {
 			try {
@@ -108,6 +138,7 @@ vector<string> ConverterJSON::GetTextDocuments() {
 	}
 	catch (const NoFileConfig& e) {
 		cout << e.what() << endl;
+		assert(0);
 	}
 }
 int ConverterJSON::GetResponsesLimit() {
@@ -303,8 +334,8 @@ vector<vector<RelativeIndex>> SearchServer::search(const vector<string>& queries
 
 		for (int j = 0; j < index.getCountDocs(); ++j) {
 			if (max_counter > 0) output[i][j].rank = (float) counter[j] / (float) max_counter;
-			else output[i][j].doc_id = 0.f;
-			output[i][j].rank = j;
+			else output[i][j].rank = 0.f;
+			output[i][j].doc_id = j;
 		}
 	}
 
